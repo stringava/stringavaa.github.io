@@ -1,0 +1,149 @@
+body{
+	margin: 0 auto;
+	font-family: Arial, Helvetica;
+	
+}
+
+/*header*/
+header{
+	height: 80px;
+	width: inherit;
+	background-image: linear-gradient(to right, #e66777 0%, #e66766 100%);
+}
+.lg{
+	margin: 0 auto;
+	width: 960px;
+}
+h1{
+	color: rgb(248, 219, 200);
+	font-size: 32px;
+	line-height: 80px; 
+	margin:0 40px 0 0; 
+	display: inline-block;
+}
+.lg a{
+	float: right;
+	padding-left: 20px;
+	line-height: 80px;
+	font-size: 15px;
+	color:  rgb(150, 37, 9);
+	text-decoration: underline;
+}
+
+
+#banner{	
+	width:100%;
+	height:600px;
+}
+.banner{
+	width:100%;
+	height:600px;
+	
+	background-image: url(http://ww1.sinaimg.cn/wap720/005HLybugw1f3sdmforiej31bb0qok1u.jpg);
+	font-size: 150px;
+	font-weight: bold;
+	color:black;
+
+	text-align: center;
+	line-height: 580px;
+	position: absolute;
+	letter-spacing: 1px;
+	display: block;
+}
+
+.tag{
+	width:150px;
+	display: flex;
+	margin: 570px 0 0 48.5% ;
+	float: left;
+}
+.tag div{
+	width: 12px;
+	height: 12px;
+	background-image: linear-gradient(to right, #645c52 0%, #312019 100%);
+	position: relative;
+	margin-right:10px; 
+}
+.tag div:nth-child(1){
+	background:  #ccb5a6
+}
+nav{
+	width: 100%;
+	height:100px;
+	border-bottom: 1px solid #ddd; 
+}
+ul{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+li{
+	display: inline-block;
+	width: 80px;
+	height: 50px;
+	border-radius: 5px 5px 0 0 ;
+	background-color:  #e66767;
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+	border-top: 1px solid #ddd ;
+	border-left: 1px solid #ddd ;
+	border-right: 1px solid #ddd ;
+	margin: 50px 0 0 0;
+	color: #fff;
+
+}
+li:nth-of-type(1){
+	background-color: #fff;
+	color: rgb(155, 46, 46);
+}
+section:last-of-type{
+	width: 960px;
+	margin: 60px auto;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+div[class^=content]{
+	border: 2px solid #ddd;
+	height: 250px;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	margin:0 18px 18px 0; 
+	text-align: center;
+	line-height: 250px;
+	background-image: url(http://img4q.duitang.com/uploads/item/201505/16/20150516085946_EFZvk.jpeg);
+	
+	
+}
+.content-1{
+	width: 62%;
+
+}
+.content-2{
+	width: 97%;
+}
+.content-3{
+	width: 62%;
+}
+.content-4{
+	width: 33%;
+}
+.content-5{
+	width: 33%;
+}
+#footer{
+	margin-top: 50px; 
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	text-decoration: none;
+	background-image: linear-gradient(to right, #e66777 0%, #e66767 100%);
+	color: rgb(236, 236, 236);
+}
+
+
+
